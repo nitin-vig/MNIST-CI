@@ -1,5 +1,7 @@
 # MNIST-CI Project
 
+[![Build Status](https://github.com/[username]/MNIST-CI/actions/workflows/ci.yml/badge.svg)](https://github.com/[username]/MNIST-CI/actions/workflows/ci.yml)
+
 ## Overview
 This project implements a Convolutional Neural Network (CNN) for classifying handwritten digits from the MNIST dataset, with a complete CI/CD pipeline using GitHub Actions.
 The model is trained using several data augmentation techniques to improve robustness:
@@ -10,6 +12,4 @@ The model is trained using several data augmentation techniques to improve robus
 
 These transformations help prevent overfitting by creating variations of the training images while preserving the essential digit features.
 
-
-## Project Structure
 
