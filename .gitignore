@@ -23,5 +23,6 @@ var/
 venv/
 ENV/
 models/
+data/
 *.h5
 *.pth
