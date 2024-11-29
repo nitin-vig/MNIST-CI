@@ -58,4 +58,4 @@ def test_model_performance():
             correct += (predicted == target).sum().item()
     
     accuracy = 100 * correct / total
-    assert accuracy > 80, f"Model accuracy ({accuracy:.2f}%) is below 80%"
+    assert accuracy > 95, f"Model accuracy ({accuracy:.2f}%) is below 80%"
