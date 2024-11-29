@@ -1,6 +1,6 @@
 # MNIST-CI Project
 
-[![Build Status](https://github.com/[username]/MNIST-CI/actions/workflows/ml_pipeline.yml//badge.svg)](https://github.com/[username]/MNIST-CI/actions/workflows/ml_pipeline.yml/)
+[![Build Status](https://github.com/[username]/MNIST-CI/actions/workflows/ml_pipeline.yml/badge.svg)](https://github.com/[username]/MNIST-CI/actions/workflows/ml_pipeline.yml/)
 
 ## Overview
 This project implements a Convolutional Neural Network (CNN) for classifying handwritten digits from the MNIST dataset, with a complete CI/CD pipeline using GitHub Actions.
