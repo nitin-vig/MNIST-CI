@@ -6,8 +6,8 @@ class MNISTModel(nn.Module):  # Defines a custom neural network model class that
         super(MNISTModel, self).__init__()  # Calls the constructor of the parent class (nn.Module)
         self.conv1 = nn.Conv2d(1, 16, 3)  # First convolutional layer: 1 input channel, 16 output channels, 3x3 kernel
         self.conv2 = nn.Conv2d(16, 32, 3)  # Second convolutional layer: 16 input channels, 32 output channels, 3x3 kernel
-        self.fc1 = nn.Linear(32 * 5 * 5, 64)  # First fully connected layer: 32*5*5 input features, 64 output features
-        self.fc2 = nn.Linear(64, 10)  # Second fully connected layer: 64 input features, 10 output features (for 10 digits)
+        self.fc1 = nn.Linear(32 * 5 * 5, 16)  # First fully connected layer: 32*5*5 input features, 64 output features
+        self.fc2 = nn.Linear(16, 10)  # Second fully connected layer: 64 input features, 10 output features (for 10 digits)
         self.pool = nn.MaxPool2d(2, 2)  # Max pooling layer with 2x2 kernel and stride 2
         self.relu = nn.ReLU()  # ReLU activation function
 

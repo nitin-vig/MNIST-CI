@@ -23,7 +23,7 @@ def test_model_architecture():
     total_params = sum(p.numel() for p in model.parameters())
     print(f"Total number of model parameters: {total_params:,}")
 
-    assert total_params < 60000, "Model has too many parameters"
+    assert total_params < 25000, "Model has too many parameters"
 
 def test_model_performance():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
